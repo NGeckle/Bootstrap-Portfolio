@@ -1,0 +1,30 @@
+.active {
+    background-color: #4CAF50;
+}
+
+nav {
+    background-color:#333;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+.navbar-brand:hover:not(.active) {
+    background-color: #111;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+li a:hover {
+    color: white;
+}
