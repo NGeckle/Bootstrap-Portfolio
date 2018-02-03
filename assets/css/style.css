@@ -28,3 +28,50 @@ li a:hover:not(.active) {
 li a:hover {
     color: white;
 }
+
+h2 {
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.col-md-8 {
+    background-color: white;
+}
+
+.col-md-3 {
+    background-color: white;
+    float: right;
+}
+
+.connectImages {
+    width: 75px;
+    height: 75px;
+}
+
+.connectImages:hover {
+    box-shadow: 0 1px 8px black;
+}
+
+footer {
+    height: 50px;
+    margin-top: -50px;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    padding: 20px;
+    font-size: 12px;
+}
+
+#content {
+    min-height: 100%;
+}
+
+#contentInside {
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
