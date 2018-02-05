@@ -30,7 +30,9 @@ li a:hover {
 }
 
 h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
     text-align: center;
 }
 
@@ -74,4 +76,39 @@ footer {
 html, body {
     height: 100%;
     margin: 0;
+}
+
+#inputName {
+    width: 600px;
+    height: 30px;
+}
+
+#inputEmail {
+    width: 600px;
+    height: 30px;
+}
+
+#inputMessage {
+    width: 600px;
+    height: 230px;
+}
+
+form {
+    text-align: center;
+    
+}
+
+#pMessage {
+    float: left;
+}
+
+#hidden {
+    text-align: center;
+    font-size: 25px;
+}
+
+#catGif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
